@@ -1,0 +1,24 @@
+//
+//  ViewController.h
+//  试炼：UICollectionCell
+//
+//  Created by 萨缪 on 2018/7/26.
+//  Copyright © 2018年 萨缪. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "JPXCollectionViewCell.h"
+@interface ViewController : UIViewController
+<
+UICollectionViewDataSource,
+UICollectionViewDelegate,
+UICollectionViewDelegateFlowLayout
+>
+{
+    UICollectionView * mainCollectionView;
+    NSArray * arrayImage;
+}
+
+
+@end
+
